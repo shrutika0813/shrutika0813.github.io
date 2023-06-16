@@ -622,11 +622,20 @@ section{
     .home .content p{
         font-size: 1.5rem;
     }
+    .about .row{
+        justify-content: center;
+    }
 } 
 
 @media (max-width: 450px){
 
     html{
         font-size: 50%;
+    }
+}
+
+@media (max-width: 504px) {
+    #abtimg{
+       max-width: 290px;  
     }
 }
